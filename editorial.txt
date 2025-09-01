@@ -1,0 +1,37 @@
+Tell us about the scent qualities or characters you are looking for:
+
+1) Gender qualities:
+    a. Feminine
+    b. Masculine
+    c. Androgynous
+
+2) Time in a day characters:
+    a. Rises with the sun
+    b. Speaks before I do
+    c. Radiant and quietly magnetic from morning to dusk
+    d. Turns head in a candlelight
+
+3) Seasonal characters:
+    a. Spring - awakening, blooming, whispers of warmth
+    b. Summer - Sun-drenched, heat-kissed, wild and golden
+    c. Autumn - harvest-hued, full of secrets
+    d. Winter - Frosted, velvet silence, crystalline calm
+
+4) Longevity:
+    a. Very weak
+    b. Weak
+    c. Moderate
+    d. Long lasting
+    e. Eternal
+
+5) Sillage:
+    a. Intimate
+    b. Moderate
+    c. Strong
+    d. Enormous
+
+6) The color that resonates with your emotion right now: (if any)
+    input("...: ")
+    
+7) Your favorite bottle: (if any)
+    input("...: ")

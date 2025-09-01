@@ -1,0 +1,12 @@
+{% extends 'perfume_db_manager/dbman_base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+<h1>Delete {{ perfume.name }}?</h1>
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Confirm Delete</button><hr>
+  <a href="{% url 'dbman_index' %}">...Change your mind? No worries.</a>
+</form>
+</div>
+{% endblock %}

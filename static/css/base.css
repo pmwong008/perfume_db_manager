@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: 10px auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+header{
+    background-color: #ece2ccad;
+    width: 100%;
+    padding: 0 5%;
+    display :flex;
+    justify-content: space-between;   /*首元素靠左，末元素靠右，中間元素自動分配剩餘空間。 */
+    align-items: center;
+}
+
+h1{
+    margin: 5px 0;
+}
+
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.nav-menu li{
+    margin: 0 10px;
+}
+
+/* search bar */
+.search-input {
+  width: 300px;
+  height: 36px;
+  padding-left: 40px;
+  border: 1.5px solid #ccc;
+  border-radius: 18px;
+  background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" fill="gray" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8" stroke="gray" stroke-width="2" fill="none"/><line x1="20" y1="20" x2="16.65" y2="16.65" stroke="gray" stroke-width="2" stroke-linecap="round"/></svg>') no-repeat 13px center;
+  background-size: 16px 16px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+.search-input:focus {
+border-color: #007bff;
+}
+
+.scroll-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+footer{
+    background-color: #ece2ccad;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sns-icons{
+    width: 100%;
+}
+
+.sns-icons img{
+    margin: 20px;
+    vertical-align: middle;
+}
+

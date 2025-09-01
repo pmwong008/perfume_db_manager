@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block head_style %}
+<link rel="stylesheet" href="{% static 'perfume_app/css/index.css'%}">
+{% endblock %}
+
+{% block body_content %}
+<main>
+    <h2>
+      <div class="slide">
+          <div class="slide-container">
+              <div class="slides">
+                  <img src="{% static 'perfume_app/images/perfume1.jpeg' %}" class="active">
+                  <img src="{% static 'perfume_app/images/perfume2.jpeg' %}">
+                  <img src="{% static 'perfume_app/images/perfume3.jpeg' %}">
+                  <img src="{% static 'perfume_app/images/perfume4.jpeg' %}">
+              </div>
+
+              <div class="buttons">
+                  <span class="next">&#10095;</span>
+                  <span class="prev">&#10094;</span>
+              </div>
+
+              <div class="dotsContainer">
+                  <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+                  <div class="dot" attr='1' onclick="switchImage(this)"></div>
+                  <div class="dot" attr='2' onclick="switchImage(this)"></div>
+                  <div class="dot" attr='3' onclick="switchImage(this)"></div>
+                  <div class="dot" attr='4' onclick="switchImage(this)"></div>
+              </div>
+          </div>
+      </div>
+    </h2>
+</main>
+{%  endblock %}
+{% block body_script %}
+<script src="{% static 'js/index.js'%}"></script>
+{% endblock %}

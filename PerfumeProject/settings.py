@@ -28,7 +28,11 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'fallback-secret')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+host = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+if host:
+    ALLOWED_HOSTS.append(host)
+
 
 
 # Application definition

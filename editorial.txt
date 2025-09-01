@@ -35,3 +35,9 @@ Tell us about the scent qualities or characters you are looking for:
     
 7) Your favorite bottle: (if any)
     input("...: ")
+
+__________________________________________
+The fragrant path to Django Mastery.
+A scent that truly resonates with your personality, mood, or even memory.
+Perfumes are built in layers, like a musical composition - with Top, Heart, and Base notes.
+

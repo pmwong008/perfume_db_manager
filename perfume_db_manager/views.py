@@ -7,7 +7,7 @@ from django.db import models
 
 def dbman_index(request):
     selected_brand = request.GET.get('brand')
-    sort_order = request.GET.get('sort', 'asc')  # default to ascending
+    sort_order = request.GET.get('sort', 'desc')  # default to ascending
 
     all_brands = Perfumes.objects.values_list('brand', flat=True).distinct().order_by('brand')
 

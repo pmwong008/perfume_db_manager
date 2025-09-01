@@ -4,7 +4,7 @@ services:
     env: python
     repo: https://github.com/pmwong008/perfume_db_manager.git
     branch: main
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput
     startCommand: gunicorn perfume_db_manager.wsgi:application
     autoDeploy: true
     envVars:

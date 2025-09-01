@@ -1,2 +1,16 @@
 .venv
-settings.py
+.env
+__pycache__/
+*.pyc
+db.sqlite3
+/staticfiles/
+/media/
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.db
+*.egg-info/

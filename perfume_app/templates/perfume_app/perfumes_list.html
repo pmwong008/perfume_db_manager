@@ -62,7 +62,7 @@
   </div>
 {% endif %}
 
-  <!-- 香水表 -->
+  <!-- perfume list -->
   <div class="row row-cols-1 row-cols-md-4 g-4">
     {% for p in perfumes %}
     <div class="col item">
@@ -71,15 +71,16 @@
           <img src="https://fimgs.net/mdimg/perfume-thumbs/375x500{{p.image}}" class="card-img-top img-fluid" alt="{{ p.name}}">
         </a>
         <div class="card-body">
-          <h5 class="card-title"><a href="{% url 'perfume_app:perfume_detail' p.pk %}">{{ p.brand }}</a></h5>
-          <p class="card-text"><a href="{% url 'perfume_app:perfume_detail' p.pk %}">{{ p.name }}</a></p>
+          <div class="card-text"><a href="{% url 'perfume_app:perfume_detail' p.pk %}" style="text-decoration:none; color:inherit;" >{{ p.name }}</a></div>
+
+          <div class="card-title" style="text-decoration: none; color: inherit;"><p>{{ p.brand }}</p></div>
         </div>
       </div>
     </div>
     {% endfor %}
   </div>
 
-  <!-- 分頁控制 -->
+  <!-- pagination control -->
   <div class="pagination">
     {% if perfumes.has_previous %}
       <a href="?page={{ perfumes.previous_page_number }}{% for b in selected_brands %}&brand={{ b }}{% endfor %}{% for n in selected_notes %}&note={{ n }}{% endfor %}">previous</a>

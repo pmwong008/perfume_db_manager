@@ -28,7 +28,7 @@ header{
     width: 100%;
     padding: 0 5%;
     display :flex;
-    justify-content: space-between;   /*首元素靠左，末元素靠右，中間元素自動分配剩餘空間。 */
+    justify-content: space-between;   /*left element justified to left, right element justified to right, auto distribution for elements in between. */
     align-items: center;
 }
 

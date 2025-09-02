@@ -1,0 +1,23 @@
+{% extends 'perfume_db_manager/dbman_base.html' %}
+{% block content %}
+<h1>Perfume List</h1>
+<a href="{% url 'dbman_create' %}">Add New Perfume</a>
+{% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<ul>
+
+  {% for perfume in perfumes %}
+    <li>
+      {{ perfume.name }} by {{ perfume.brand }}
+      <a href="{% url 'dbman_update' perfume.pk %}">Edit</a>
+      <a href="{% url 'dbman_delete' perfume.pk %}">Delete</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block head_style %}
+        <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.4.1/dist/css/coreui.min.css" rel="stylesheet" integrity="sha384-NlsxdkweGA8nr9s0TVc3Qu2zqhWMNsHrvzMpAjVR0yDqXgC2z+RWYoeCNG2uO2MC" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <style>
+            body {
+                height: 100vh;
+                overflow-y: auto;
+                background-color:rgb(228, 222, 211);
+            }
+            .sidebar{
+                min-height: 100%;
+            }
+            #toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+            }
+
+            .toast {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            opacity: 0.9;
+            transition: opacity 0.5s ease;
+            }
+
+            .toast.success { background-color: #28a745; }
+            .toast.warning { background-color: #ffc107; }
+            .toast.error   { background-color: #dc3545; }
+        </style>
+        {% endblock %}
+        {% block head_script %}
+        {% endblock %}
+    <title>{% block title %}Perfume DB{% endblock %}</title>
+    </head>
+    <body>
+    {% if messages %}
+        <div id="toast-container">
+        {% for message in messages %}
+            <div class="toast {{ message.tags }}">{{ message }}</div>
+        {% endfor %}
+        </div>
+    {% endif %}
+
+    {% block content %}
+    {% endblock %}
+    </body>
+</html>
+
+<script>
+  setTimeout(() => {
+    document.querySelectorAll('.toast').forEach(el => el.style.opacity = '0');
+  }, 3000);
+</script>

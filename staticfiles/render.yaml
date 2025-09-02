@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: perfume-db
+    env: python
+    repo: https://github.com/pmwong008/perfume_db_manager.git
+    branch: main
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput
+    startCommand: gunicorn perfume_db_manager.wsgi:application
+    autoDeploy: true
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        
+      - key: DJANGO_DEBUG
+        value: False
+      - key: DB_NAME
+        
+      - key: DB_USER
+        
+      - key: DB_PASSWORD
+        
+      - key: DB_HOST
+        
+      - key: DB_PORT
+        

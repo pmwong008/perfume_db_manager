@@ -1,0 +1,14 @@
+<h1>Search Database Info</h1>
+
+<form method="get">
+  <input type="text" name="q" placeholder="Search by name" value="{{ query }}">
+  <button type="submit">Search</button>
+</form>
+
+<ul>
+  {% for perfume in results %}
+    <li>{{ perfume.name }} by {{ perfume.brand }} ({{ perfume.launch_year }})</li>
+  {% empty %}
+    <li>No perfumes found.</li>
+  {% endfor %}
+</ul>

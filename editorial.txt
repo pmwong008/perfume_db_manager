@@ -41,3 +41,64 @@ The fragrant path to Django Mastery.
 A scent that truly resonates with your personality, mood, or even memory.
 Perfumes are built in layers, like a musical composition - with Top, Heart, and Base notes.
 
+🧪 Top Row
+Benzaldehyde
+
+Structure: Benzene ring with a formyl group (–CHO)
+
+Scent: Almond, cherry-like
+
+Found in: Bitter almonds, cherries
+
+Used for: Sweet, nutty top notes in gourmand fragrances
+
+Phenol (or possibly p-Cresol)
+
+Structure: Benzene ring with a hydroxyl group (–OH)
+
+Scent: Medicinal, smoky, sometimes leathery
+
+Found in: Coal tar, synthetic sources
+
+Used for: Animalic or smoky accords in niche perfumes
+
+Limonene
+
+Structure: Cyclic terpene with a double bond
+
+Scent: Bright citrus, orange peel
+
+Found in: Citrus rinds
+
+Used for: Fresh, uplifting top notes
+
+🧪 Bottom Row
+Ethylbenzene or Benzyl Ethyl Ether
+
+Structure: Benzene ring with an ethyl side chain
+
+Scent: Mildly sweet, solvent-like
+
+Found in: Synthetic blends
+
+Used for: Fixatives or as intermediates in fragrance synthesis
+
+Coumarin
+
+Structure: Lactone ring fused with benzene
+
+Scent: Sweet, vanilla-like, hay
+
+Found in: Tonka beans
+
+Used for: Warm, powdery base notes
+
+Methyl Salicylate (Wintergreen Oil)
+
+Structure: Ester with aromatic ring and carboxyl group
+
+Scent: Minty, medicinal
+
+Found in: Wintergreen, birch
+
+Used for: Cooling, minty top notes

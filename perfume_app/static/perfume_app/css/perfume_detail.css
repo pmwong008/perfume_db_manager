@@ -1,17 +1,38 @@
 .perfume-image img {
     width: 100%;
     max-width: 400px;
-    border-radius: 8px;
+    border-radius: 30px;
     object-fit: cover;
   }
   .brand {
-    font-weight: 700;
+    color: #b0b0b0;
+    font-weight: 100;
     font-size: 1.2rem;
-    color: #555;
+    color: #a5a5a5;
     letter-spacing: 1px;
   }
   .perfume-name {
+    color: #ffffff;
     font-size: 2rem;
-    font-weight: 900;
-    color: #222;
+    font-weight: 600;
+    
   }
+
+  .notes-subtitle {
+    color: #a3a3a3;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .notes-details {
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 10;
+  }
+
+
+
+
+
+

@@ -5,7 +5,7 @@
     height: 100%;
     background: rgba(28, 28, 63, 0.9);
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     overflow: hidden;
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow: 0 4px 8px rgba(21, 19, 19, 0.1);
@@ -30,7 +30,7 @@
 
 /* Card Title and Text */
 .card-title {
-    color: rgb(159, 159, 159) !important;
+    color: rgb(193, 193, 193) !important;
     text-decoration: none;
     font-weight: 10;
     font-size: 0.95rem;
@@ -42,10 +42,10 @@
 .card-text {
     color: rgb(255, 255, 255) !important; 
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     
-    padding: 0 0.5rem;
-    margin-top: 0.5rem;
+    padding: 0 0.2rem;
+    margin-top: 0.1rem;
     margin-bottom: 0.5rem;
     text-align: center;
 }
@@ -54,7 +54,7 @@
 /* Hover Effect */
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
 }
 
 

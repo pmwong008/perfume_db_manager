@@ -37,68 +37,126 @@ Tell us about the scent qualities or characters you are looking for:
     input("...: ")
 
 __________________________________________
-The fragrant path to Django Mastery.
+The fragrant path to Django Mastery | Self Discovery
 A scent that truly resonates with your personality, mood, or even memory.
 Perfumes are built in layers, like a musical composition - with Top, Heart, and Base notes.
 
+Navigation Bar Icons
+Search Bar??
+Home - Public App and Member App pages except Home
+Recommendation - Public App and Member App pages except Recommendation
+Catalogue - Public App and Member App pages except Catalogue
+Login | Logout - Depend on status
+
+Member's Profile...
+
+Rating activity... | Details page? | 
+
+Use Case Diagram | Class Diagram | Activity Diagram
+
+Fun Facts
+🌬️ The Word “Perfume” Means “Through Smoke”
+It comes from the Latin per fumum, because ancient perfumes were often burned like incense — scenting the air through smoke.
+
+👩‍🔬 The First Perfumer Was a Woman — in 1200 BCE!
+Her name was Tapputi, a chemist in Mesopotamia who distilled flowers, oils, and resins. She’s considered the world’s first recorded perfume maker2.
+
+🧬 Your Skin Chemistry Changes the Scent
+The same perfume can smell totally different on two people due to variations in skin pH, oil levels, and even diet3. It’s like each person has their own scent fingerprint.
+
+🐋 Whale Vomit in Luxury Perfumes?
+Yes — ambergris, a waxy substance from sperm whales, is prized for its ability to make scents last longer. It’s rare, expensive, and oddly enough, sometimes found floating on beaches.
+
+💎 The Most Expensive Perfume Costs Over $1 Million
+The Shumukh perfume by Nabeel is housed in a 3-liter crystal bottle adorned with gold, silver, and over 3,700 gems. It’s a blend of rose, sandalwood, patchouli, and pure Indian agarwood.
+
+Rarest ingredients used in high-end scents
+
+🌳 Oud (Agarwood) — “Liquid Gold”
+Derived from the heartwood of Aquilaria trees infected by a specific mold.
+
+Rich, smoky, woody scent with balsamic undertones.
+
+Can cost up to US$50,000 per kilogram due to its rarity and unpredictable formation.
+
+Featured in: Frederic Malle’s The Night, Roja Parfums Aoud Absolue Précieux.
+
+🐋 Ambergris — Ocean-aged Elegance
+A waxy substance from sperm whales, aged by the sea.
+
+Musky, marine aroma with subtle sweetness.
+
+Acts as a fixative to make scents last longer.
+
+Also valued at US$50,000 per kilogram, though many perfumers now use synthetic alternatives.
+
+Featured in: Creed Aventus, House of Creed Royal Oud.
+
+🌸 Orris Root — Velvety Florals from Iris
+Extracted from the rhizome of the iris plant.
+
+Takes 3–5 years to mature before harvesting.
+
+Powdery, violet-like scent with buttery smoothness.
+
+Costs up to US$40,000 per kilogram.
+
+Often used in luxury blends for its fixative properties.
+
+🌼 Jasmine Absolute — Floral Royalty
+Requires 8,000 flowers to produce just 1/25 ounce of oil.
+
+Deep, sensual floral note used in over 80% of women’s perfumes.
+
+Real jasmine oil is extremely expensive and often replaced with synthetics in cheaper perfumes.
+
+🌹 Bulgarian Rose Oil — The Queen of Roses
+Harvested by hand during a short window in May.
+
+Thousands of petals yield just a few drops of oil.
+
+Deep, intoxicating floral scent with unmatched richness.
+
+These ingredients aren’t just rare — they’re labor-intensive, seasonally sensitive, and often ethically complex. That’s why luxury perfumes feel so personal and powerful: they’re crafted from nature’s most guarded treasures.
+
+Scent Molecules Diagram
+
 🧪 Top Row
-Benzaldehyde
 
-Structure: Benzene ring with a formyl group (–CHO)
+    Benzaldehyde
+    Structure: Benzene ring with a formyl group (–CHO)
+    Scent: Almond, cherry-like
+    Found in: Bitter almonds, cherries
+    Used for: Sweet, nutty top notes in gourmand fragrances
 
-Scent: Almond, cherry-like
+    Phenol (or possibly p-Cresol)
+    Structure: Benzene ring with a hydroxyl group (–OH)
+    Scent: Medicinal, smoky, sometimes leathery
+    Found in: Coal tar, synthetic sources
+    Used for: Animalic or smoky accords in niche perfumes
 
-Found in: Bitter almonds, cherries
-
-Used for: Sweet, nutty top notes in gourmand fragrances
-
-Phenol (or possibly p-Cresol)
-
-Structure: Benzene ring with a hydroxyl group (–OH)
-
-Scent: Medicinal, smoky, sometimes leathery
-
-Found in: Coal tar, synthetic sources
-
-Used for: Animalic or smoky accords in niche perfumes
-
-Limonene
-
-Structure: Cyclic terpene with a double bond
-
-Scent: Bright citrus, orange peel
-
-Found in: Citrus rinds
-
-Used for: Fresh, uplifting top notes
+    Limonene
+    Structure: Cyclic terpene with a double bond
+    Scent: Bright citrus, orange peel
+    Found in: Citrus rinds
+    Used for: Fresh, uplifting top notes
 
 🧪 Bottom Row
-Ethylbenzene or Benzyl Ethyl Ether
 
-Structure: Benzene ring with an ethyl side chain
+    Ethylbenzene or Benzyl Ethyl Ether
+    Structure: Benzene ring with an ethyl side chain
+    Scent: Mildly sweet, solvent-like
+    Found in: Synthetic blends
+    Used for: Fixatives or as intermediates in fragrance synthesis
 
-Scent: Mildly sweet, solvent-like
+    Coumarin
+    Structure: Lactone ring fused with benzene
+    Scent: Sweet, vanilla-like, hay
+    Found in: Tonka beans
+    Used for: Warm, powdery base notes
 
-Found in: Synthetic blends
-
-Used for: Fixatives or as intermediates in fragrance synthesis
-
-Coumarin
-
-Structure: Lactone ring fused with benzene
-
-Scent: Sweet, vanilla-like, hay
-
-Found in: Tonka beans
-
-Used for: Warm, powdery base notes
-
-Methyl Salicylate (Wintergreen Oil)
-
-Structure: Ester with aromatic ring and carboxyl group
-
-Scent: Minty, medicinal
-
-Found in: Wintergreen, birch
-
-Used for: Cooling, minty top notes
+    Methyl Salicylate (Wintergreen Oil)
+    Structure: Ester with aromatic ring and carboxyl group
+    Scent: Minty, medicinal
+    Found in: Wintergreen, birch
+    Used for: Cooling, minty top notes
